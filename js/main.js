@@ -163,6 +163,7 @@ function comprobarParejas() {
           bloquearPanel(false);
           cronometrar();
           document.getElementById("modalPregunta").style.display = "block";
+          playAudio();
           numAleatorio = Math.floor(
             Math.random() * preguntasRespuestasJohnLocke.length
           );
