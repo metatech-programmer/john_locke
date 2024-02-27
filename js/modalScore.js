@@ -40,6 +40,7 @@ class Partida {
 }
 
 function guardarPuntuacion() {
+    playAudio();
     document.getElementById("modalScore").setAttribute("class", "modalDialog");
     let nuevaPartida = document.getElementById("nombreJugador");
     nuevaPartida.value = "";
@@ -62,6 +63,7 @@ function guardarPuntuacion() {
         console.log(nombreJugador);
         webStorage(new Partida(nombreJugador, lblPuntos.innerHTML, lblTiempo.innerHTML, fechaActual));
         document.getElementById("modalScore").setAttribute("class", "hide");
+
         historialPartidas();
     };
 

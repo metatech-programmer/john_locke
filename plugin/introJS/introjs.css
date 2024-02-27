@@ -55,8 +55,8 @@ tr.introjs-showElement > th {
   box-sizing: content-box;
   position: absolute;
   z-index: 9999998;
-  background-color: #FFF;
-  background-color: rgba(255,255,255,.9);
+  background-color: #1a1a1a;
+  background-color: #1a1a1a;
   border: 1px solid #777;
   border: 1px solid rgba(0,0,0,.5);
   border-radius: 4px;
@@ -183,11 +183,11 @@ tr.introjs-showElement > th {
   position: absolute;
   visibility: visible;
   padding: 10px;
-  background-color: white;
+  background-color: rgb(20, 20, 20);
   min-width: 200px;
   max-width: 300px;
   border-radius: 3px;
-  box-shadow: 0 1px 10px rgba(0,0,0,.4);
+  box-shadow: 0 1px 10px rgba(185, 185, 185, 0.4);
   -webkit-transition: opacity 0.1s ease-out;
      -moz-transition: opacity 0.1s ease-out;
       -ms-transition: opacity 0.1s ease-out;
